@@ -13,6 +13,16 @@ namespace TestPhoneNumber
         }
 
         [Test]
+        public void TestReturnTrue()
+        {
+            //Arrange
+            bool sut = false;
+
+            //Assert
+            Assert.AreEqual(true, sut);
+        }
+
+        [Test]
         public void GetNumber_SetStringAndDigit_ReturnTrue()
         {
             //Arrange
