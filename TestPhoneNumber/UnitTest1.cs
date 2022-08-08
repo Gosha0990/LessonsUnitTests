@@ -23,7 +23,7 @@ namespace TestPhoneNumber
             var sut = numberPhone.GetNumber(requestStr, out phone);
              
             //Assert
-            Assert.AreEqual(false, sut);
+            Assert.AreEqual(true, sut);
             Assert.AreEqual(89165555555, phone);
         }
 
